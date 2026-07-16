@@ -1,8 +1,8 @@
 cask "awesomux" do
-  version "0.1.0"
-  sha256 "7bdc0965f2a526015d356806a44760272caa8b0f4624e7fb54ebdb7280d6235a"
+  version "0.2.0"
+  sha256 "5e87190a8d168d6e9042b92249446f9b59e70008f60165f69f7da0b042a18bb7"
 
-  url "https://github.com/Interactive-Buffoonery/awesomux/releases/download/v#{version}/awesoMux-#{version}.zip"
+  url "https://github.com/Interactive-Buffoonery/awesomux/releases/download/v#{version}/awesoMux-#{version}.dmg"
   name "awesoMux"
   desc "Terminal built on libghostty with agent-aware sessions"
   homepage "https://github.com/Interactive-Buffoonery/awesomux"
