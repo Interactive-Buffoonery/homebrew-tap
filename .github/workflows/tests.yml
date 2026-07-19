@@ -11,8 +11,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: macos-15-intel
-            container: ''
           - os: macos-26
             container: ''
           - os: ubuntu-latest
