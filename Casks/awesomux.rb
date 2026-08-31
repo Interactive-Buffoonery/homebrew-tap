@@ -1,6 +1,6 @@
 cask "awesomux" do
-  version "0.15.0"
-  sha256 "b2394935c6a43e26a5528a5f1833d4e46bd04cc1ae2045ab6fb2d6bf43a9402f"
+  version "0.15.1"
+  sha256 "cf2a08d903ee27f6cd7876f13b12b175b933f1ec6090d8abce2b175b1c4aea5f"
 
   url "https://github.com/Interactive-Buffoonery/awesomux/releases/download/v#{version}/awesoMux-#{version}.dmg"
   name "awesoMux"
