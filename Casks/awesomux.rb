@@ -1,7 +1,6 @@
 cask "awesomux" do
   version "0.15.0"
   sha256 "b2394935c6a43e26a5528a5f1833d4e46bd04cc1ae2045ab6fb2d6bf43a9402f"
-  auto_updates true
 
   url "https://github.com/Interactive-Buffoonery/awesomux/releases/download/v#{version}/awesoMux-#{version}.dmg"
   name "awesoMux"
@@ -13,6 +12,7 @@ cask "awesomux" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :sequoia
   depends_on arch: :arm64
 
