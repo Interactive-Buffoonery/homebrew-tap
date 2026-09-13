@@ -1,6 +1,6 @@
 cask "awesomux" do
-  version "0.15.2"
-  sha256 "bdeef4ae606ece62d24052ff9f29912c4b5a314d9e7f36a767342f6663c38831"
+  version "0.16.0"
+  sha256 "31dd15e588ea8b61eb5e668eee214c4d8d5ab1de7475e1d1948aa2a8c8a42916"
 
   url "https://github.com/Interactive-Buffoonery/awesomux/releases/download/v#{version}/awesoMux-#{version}.dmg"
   name "awesoMux"
@@ -13,8 +13,8 @@ cask "awesomux" do
   end
 
   auto_updates true
-  depends_on macos: :sequoia
   depends_on arch: :arm64
+  depends_on macos: :sequoia
 
   app "awesoMux.app"
 
